@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    background-color: bisque;
+}
+table{
+    background-color: rgb(217, 250, 69);
+    border: 1px black;
+    border-style: solid;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 5px 5px rgb(58, 245, 198);
+}
+td {
+    background-color: rgb(107, 142, 240);
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 30px;
+    padding: 4px 13px;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+#display {
+    background-color: rgb(151, 248, 255);
+    box-shadow: 0px 0px 5px 2px grey;
+    cursor: default;
+}
+
+#dummy{
+    background-color: transparent;
+    height: 10px;
+    border: 0px;
+}
+
